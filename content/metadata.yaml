@@ -1,5 +1,5 @@
 ---
-title: "A Distributed Science Manifesto: Framework for Equitable Funding, Dissemination and Synthesis"
+title: "A Distributed Science Manifesto"
 keywords:
   - markdown
   - publishing
@@ -9,15 +9,15 @@ authors:
   - github: ctessum
     name: Christopher W. Tessum
     initials: CT
-    orcid: XXXX-XXXX-XXXX-XXXX
+    orcid: 0000-0002-8864-7436
     twitter: ctessum
     email: ctessum@illinois.edu
     affiliations:
       - Department of Civil and Environmental Engineering, University of Illinois
 #    funders:
 #      - Grant XXXXXXXX
-#  - github: janeroe
-#    name: Jane Roe
+  - name: You?
+#    github: janeroe
 #    initials: JR
 #    orcid: XXXX-XXXX-XXXX-XXXX
 #    email: jane.roe@whatever.edu
