@@ -49,23 +49,23 @@ header-includes: '<!--
 
   <meta name="citation_author" content="You?" />
 
-  <link rel="canonical" href="https://ctessum.github.io/lrs/" />
+  <link rel="canonical" href="https://ctessum.github.io/dsf/" />
 
-  <meta property="og:url" content="https://ctessum.github.io/lrs/" />
+  <meta property="og:url" content="https://ctessum.github.io/dsf/" />
 
-  <meta property="twitter:url" content="https://ctessum.github.io/lrs/" />
+  <meta property="twitter:url" content="https://ctessum.github.io/dsf/" />
 
-  <meta name="citation_fulltext_html_url" content="https://ctessum.github.io/lrs/" />
+  <meta name="citation_fulltext_html_url" content="https://ctessum.github.io/dsf/" />
 
-  <meta name="citation_pdf_url" content="https://ctessum.github.io/lrs/manuscript.pdf" />
+  <meta name="citation_pdf_url" content="https://ctessum.github.io/dsf/manuscript.pdf" />
 
-  <link rel="alternate" type="application/pdf" href="https://ctessum.github.io/lrs/manuscript.pdf" />
+  <link rel="alternate" type="application/pdf" href="https://ctessum.github.io/dsf/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://ctessum.github.io/lrs/v/3551bf5b75d7fb54b18dbcdf00679ab7d86a5036/" />
+  <link rel="alternate" type="text/html" href="https://ctessum.github.io/dsf/v/582fedfdb8698bb7c6e5fb3829a15b7b70672301/" />
 
-  <meta name="manubot_html_url_versioned" content="https://ctessum.github.io/lrs/v/3551bf5b75d7fb54b18dbcdf00679ab7d86a5036/" />
+  <meta name="manubot_html_url_versioned" content="https://ctessum.github.io/dsf/v/582fedfdb8698bb7c6e5fb3829a15b7b70672301/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://ctessum.github.io/lrs/v/3551bf5b75d7fb54b18dbcdf00679ab7d86a5036/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://ctessum.github.io/dsf/v/582fedfdb8698bb7c6e5fb3829a15b7b70672301/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -97,9 +97,9 @@ title: A Distributed Science Manifesto
 
 <small><em>
 This manuscript
-([permalink](https://ctessum.github.io/lrs/v/3551bf5b75d7fb54b18dbcdf00679ab7d86a5036/))
+([permalink](https://ctessum.github.io/dsf/v/582fedfdb8698bb7c6e5fb3829a15b7b70672301/))
 was automatically generated
-from [ctessum/lrs@3551bf5](https://github.com/ctessum/lrs/tree/3551bf5b75d7fb54b18dbcdf00679ab7d86a5036)
+from [ctessum/dsf@582fedf](https://github.com/ctessum/dsf/tree/582fedfdb8698bb7c6e5fb3829a15b7b70672301)
 on April 19, 2020.
 </em></small>
 
@@ -144,9 +144,9 @@ Critically, the framework would also include a funding mechanism, where scientif
 This would both provide a distributed, flexible means of funding science and a financial incentive for new users to overcome network effects inherent to established publishers.
 
 
-(Citations and supporting information to be added throughout.)
-
 ## Introduction
+
+[[Citations and supporting information to be added throughout.]]
 
 Scientific discovery is necessarily a slow process: results of individual studies must be verified, vetted, and synthesized, and decisions must be made how to allocate resources among future investigative directions before work can continue.
 These processes happen both at the micro scale within an individual scientist or lab group, and at the macro scale within members of a society.
