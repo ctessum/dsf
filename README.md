@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/ctessum/dsf/tree/gh-pages) branch hosts the contents of this directory at <https://ctessum.github.io/dsf/>.
-The permalink for this webpage version is <https://ctessum.github.io/dsf/v/582fedfdb8698bb7c6e5fb3829a15b7b70672301/>.
+The permalink for this webpage version is <https://ctessum.github.io/dsf/v/d2789d15aec9d70ce69435be1d1f0d264d42a374/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://ctessum.github.io/dsf/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`582fedfdb8698bb7c6e5fb3829a15b7b70672301`](https://github.com/ctessum/dsf/commit/582fedfdb8698bb7c6e5fb3829a15b7b70672301).
+[`d2789d15aec9d70ce69435be1d1f0d264d42a374`](https://github.com/ctessum/dsf/commit/d2789d15aec9d70ce69435be1d1f0d264d42a374).
