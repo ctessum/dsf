@@ -1,8 +1,8 @@
 # Output directory containing the formatted manuscript
 
-The [`gh-pages`](https://github.com/ctessum/lrs/tree/gh-pages) branch hosts the contents of this directory at <https://ctessum.github.io/lrs/>.
-The permalink for this webpage version is <https://ctessum.github.io/lrs/v/3551bf5b75d7fb54b18dbcdf00679ab7d86a5036/>.
-To redirect to the permalink for the latest manuscript version at anytime, use the link <https://ctessum.github.io/lrs/v/freeze/>.
+The [`gh-pages`](https://github.com/ctessum/dsf/tree/gh-pages) branch hosts the contents of this directory at <https://ctessum.github.io/dsf/>.
+The permalink for this webpage version is <https://ctessum.github.io/dsf/v/582fedfdb8698bb7c6e5fb3829a15b7b70672301/>.
+To redirect to the permalink for the latest manuscript version at anytime, use the link <https://ctessum.github.io/dsf/v/freeze/>.
 
 ## Files
 
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`3551bf5b75d7fb54b18dbcdf00679ab7d86a5036`](https://github.com/ctessum/lrs/commit/3551bf5b75d7fb54b18dbcdf00679ab7d86a5036).
+[`582fedfdb8698bb7c6e5fb3829a15b7b70672301`](https://github.com/ctessum/dsf/commit/582fedfdb8698bb7c6e5fb3829a15b7b70672301).
