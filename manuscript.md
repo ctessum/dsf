@@ -61,11 +61,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://ctessum.github.io/dsf/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://ctessum.github.io/dsf/v/d2789d15aec9d70ce69435be1d1f0d264d42a374/" />
+  <link rel="alternate" type="text/html" href="https://ctessum.github.io/dsf/v/1447664b8d1359d022d50eadab54a1537a7b1d95/" />
 
-  <meta name="manubot_html_url_versioned" content="https://ctessum.github.io/dsf/v/d2789d15aec9d70ce69435be1d1f0d264d42a374/" />
+  <meta name="manubot_html_url_versioned" content="https://ctessum.github.io/dsf/v/1447664b8d1359d022d50eadab54a1537a7b1d95/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://ctessum.github.io/dsf/v/d2789d15aec9d70ce69435be1d1f0d264d42a374/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://ctessum.github.io/dsf/v/1447664b8d1359d022d50eadab54a1537a7b1d95/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -97,9 +97,9 @@ title: A Distributed Science Manifesto
 
 <small><em>
 This manifesto
-([permalink](https://ctessum.github.io/dsf/v/d2789d15aec9d70ce69435be1d1f0d264d42a374/))
+([permalink](https://ctessum.github.io/dsf/v/1447664b8d1359d022d50eadab54a1537a7b1d95/))
 was automatically generated
-from [ctessum/dsf@d2789d1](https://github.com/ctessum/dsf/tree/d2789d15aec9d70ce69435be1d1f0d264d42a374)
+from [ctessum/dsf@1447664](https://github.com/ctessum/dsf/tree/1447664b8d1359d022d50eadab54a1537a7b1d95)
 on April 19, 2020.
 </em></small>
 
@@ -126,7 +126,7 @@ on April 19, 2020.
 
 ## Abstract
 
-Traditional institutions for disseminating the results of scientific results ("publication") and allocating limited resources to new scientific inquiries ("funding") have shepharded immense increases in social benefit, but are in some ways not well adapted to the modern scientific endeavor.
+Traditional institutions for disseminating the results of scientific research ("publication") and allocating limited resources to new scientific inquiries ("funding") have led to immense social benefits, but are in some ways not well adapted to the modern scientific endeavor.
 This document lays out design constraints for a new system, specifically that it should:
 
 1. Sort rather than filter scientific outputs;
@@ -140,7 +140,7 @@ We specify a candidate framework that meets these design constraints.
 This framework—provisionally called the Distributed Science Frameowork (DSF)—acts as both a publisher and funder of science.
 This framework would contain a monetary credit system, where users could gain credits by providing scientific reviews, and could spend credits to publish and download articles.
 The cost to publish or download an article would be comparable to the compensation for providing a review, giving users the option of participating in the system without having to pay money.
-Critically, the framework would also include a funding mechanism, where scientific funding organizations and philanthropists could contribute credits which would be distributed among authors according to the quality of their previously contributed articles.
+Critically, the framework would also include a funding mechanism, where scientific funding organizations and philanthropists could contribute funds which would be distributed among authors according to the quality of their previously contributed articles.
 This would both provide a distributed, flexible means of funding science and a financial incentive for new users to overcome network effects inherent to established publishers.
 
 
@@ -184,7 +184,8 @@ Because reviews are not credited or compensated, ideas and attitudes in reviews 
 When each article only gets two or three reviews, a single thoughtless or disgruntled review delivered after a year of waiting can have a substantial effect on the arc of a fledgling researcher's career.
 
 Scientific review should be compensated, and it should not be limited to the social networks of the article authors and journal editors.
-Solutions exist for distributed review (e.g., https://prereview.org/, https://openreview.net/) and review recognition (e.g., https://www.sciencemag.org/careers/2016/02/getting-credit-peer-review), but stop short of offering monetary compensation or an equivalent incentive.
+Solutions exist for distributed review[@url:https://prereview.org/; @url:https://openreview.net/] and review recognition[@url:https://www.sciencemag.org/careers/2016/02/getting-credit-peer-review], but stop short of offering monetary compensation or an equivalent incentive.
+There is an existing solution for compensating scientific review [@url:https://github.com/eureka-blockchain-solutions] but compensation occurs in cryptocurrency, which is likely a barrier to adoption.
 
 
 ###  Minimize barriers to participation in science and access to scientific results
@@ -217,7 +218,7 @@ Any successful upstart must have a strategy from overcoming these network effect
 
 Here we propose a candidate framework for meeting the design constraints above, the Distributed Science Framework (DSF).
 The candidate framework acts both as a publisher and a funder of science.
-At its core is the concept of Liberal Radicalism (Buterin et al., 2018), a system for the efficient allocation of grant funding.
+At its core is the concept of Liberal Radicalism[@doi:10.2139/ssrn.3243656], a system for the efficient allocation of grant funding.
 The key components are users, credits, articles, reviews, and grants.
 
 ### Components
@@ -232,6 +233,8 @@ Although this still provides some barrier to participation by requiring users to
 
 DSF credits are a digital currency system that can be converted to and from dollars or other global currencies.
 Credits are used to distribute grants and review compensation and to pay for article uploads and downloads.
+Notably, the credit system will not be a cryptocurrency, as current cryptocurrency systems are highly volatile and include a high barrier to entry.
+It will be directly convertable to normal currency, e.g. 1 credit = $1, or perhaps just directly denominated in dollars.
 
 #### Articles
 
@@ -267,7 +270,7 @@ This system also would remove the burden associated with preparing grant proposa
 
 DSF would need to be implemented and operated by an organization.
 Functions of the organization would include creating and maintaining the DSF software infrastructure, moderating user content, and policing for abuse of the system.
-Auxiliary functions of legacy publishers—such as copy-editing, type-setting, and matching reviewers to articles, and writing press-releases—would be automated or outsourced though an ecosystem of third-party providers interacting through the DSF credit system.
+Auxiliary functions of legacy publishers—such as copy-editing, type-setting, matching reviewers to articles, and writing press-releases—would be automated or outsourced though an ecosystem of third-party providers interacting through the DSF credit system.
 
 Operational costs would initially be funded by grant overhead.
 In the long run, the database comprising user interactions with DSF (articles, reviews, download counts, etc), would also be valuable in its own right (for example to generate automated literature reviews using AI), and access could be sold to third parties to provide additional revenue back to the users who contributed the data and to provide DSF operating revenue.
@@ -280,13 +283,13 @@ In the long run, the database comprising user interactions with DSF (articles, r
 * __Distribute funding decisions__: Grants are distributed algorithmically based downloads and a distributed review system.
 * __Preserve data ownership__: Users are compensated for reviews and for publishing high-quality articles.
 Proceeds from selling database access to third parties are returned to users (minus operating expenses).
-* __Break network effects__: Early adopters be incentivised to participate by the relatively easy access to grant funding. As the number of users increases, the competition for grant funding will increase, as will the prestige associated with having a highly-rated article.
+* __Break network effects__: Early adopters are incentivised to participate by the relatively easy access to grant funding. As the number of users increases, the competition for grant funding will increase, as will the prestige associated with having a highly-rated article.
 
 ### Core assumptions
 
 Here we list some core assumptions built into the design of DSF:
 
-1. __Users can be verifiably matched to individual humans__: The success of any liberal radical approach relies on successfully mapping system users to individual humans (Buterin et al, 2018).
+1. __Users can be verifiably matched to individual humans__: The success of any liberal radical approach relies on successfully mapping system users to individual humans[@doi:10.2139/ssrn.3243656].
 If one human can act as many users, then a distributed system is in danger of becoming a centralized one, centered around that individual.
 DSF will initially use email identities issued by reputable institutions to perform this verification.
 
